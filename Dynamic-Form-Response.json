@@ -1,0 +1,2811 @@
+{
+  "id": 256,
+  "attribute_name": "Aren1",
+  "prev_attribute_name": null,
+  "next_attribute_name": null,
+  "is_effective_dated": true,
+  "screendefinition_set": [
+    {
+      "has_validations": false,
+      "id": 163,
+      "field_label": "unique_id",
+      "field_type_id": "text",
+      "field_key": "unique_id",
+      "dropdown_raw_query": "",
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": true,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "text",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 18,
+      "field_label": "step name",
+      "field_type_id": "text",
+      "field_key": "step_name",
+      "dropdown_raw_query": "",
+      "field_max_length": 255,
+      "field_placeholder": "OG",
+      "is_required": true,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": true,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": true,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "text",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 19,
+      "field_label": "Budget",
+      "field_type_id": "dropdown",
+      "field_key": "budget",
+      "dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "LLP"
+        },
+        {
+          "id": 9,
+          "key": "character"
+        }
+      ],
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "dropdown",
+      "group_name": null,
+      "filter_dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "LLP"
+        },
+        {
+          "id": 9,
+          "key": "character"
+        }
+      ]
+    },
+    {
+      "has_validations": false,
+      "id": 4,
+      "field_label": "Ledger",
+      "field_type_id": "dropdown",
+      "field_key": "ledger",
+      "dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "LLP"
+        },
+        {
+          "id": 9,
+          "key": "character"
+        }
+      ],
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": true,
+      "conditional_on": "[\"budget\"]",
+      "conditional_value": "[\"budget_33\", \"budget_34\", \"budget_31\", \"budget_8\", \"budget_3\", \"budget_1\", \"budget_32\", \"budget_10\", \"budget_12\", \"budget_6\", \"budget_5\", \"budget_4\", \"budget_14\", \"budget_15\", \"budget_13\", \"budget_7\"]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "dropdown",
+      "group_name": null,
+      "filter_dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "LLP"
+        },
+        {
+          "id": 9,
+          "key": "character"
+        }
+      ]
+    },
+    {
+      "has_validations": false,
+      "id": 154,
+      "field_label": "From Date",
+      "field_type_id": "date",
+      "field_key": "from_date",
+      "dropdown_raw_query": null,
+      "field_max_length": 255,
+      "field_placeholder": "From Date",
+      "is_required": true,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": null,
+      "conditional_value": null,
+      "dependent_input": null,
+      "is_visible_in_mat_table": true,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "date",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 153,
+      "field_label": "To Date",
+      "field_type_id": "date",
+      "field_key": "to_date",
+      "dropdown_raw_query": null,
+      "field_max_length": 255,
+      "field_placeholder": "To Date",
+      "is_required": true,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": null,
+      "conditional_value": null,
+      "dependent_input": null,
+      "is_visible_in_mat_table": true,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "date",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 155,
+      "field_label": "Revision Status",
+      "field_type_id": "character",
+      "field_key": "revision_status",
+      "dropdown_raw_query": null,
+      "field_max_length": 255,
+      "field_placeholder": "Revision Status",
+      "is_required": true,
+      "is_disabled": false,
+      "is_readonly": true,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": null,
+      "conditional_value": null,
+      "dependent_input": null,
+      "is_visible_in_mat_table": true,
+      "default_value": "Effective",
+      "level": 0,
+      "field_type_val": "character",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 156,
+      "field_label": "Base ID",
+      "field_type_id": "integer",
+      "field_key": "base_id",
+      "dropdown_raw_query": null,
+      "field_max_length": 255,
+      "field_placeholder": "Base ID",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": true,
+      "conditional_on": null,
+      "conditional_value": null,
+      "dependent_input": null,
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "integer",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 5,
+      "field_label": "Business Logic/Volume",
+      "field_type_id": "dropdown",
+      "field_key": "business_logic_volume",
+      "dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ],
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": true,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "dropdown",
+      "group_name": null,
+      "filter_dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ]
+    },
+    {
+      "has_validations": false,
+      "id": 16,
+      "field_label": "Process Cost Head Link",
+      "field_type_id": "dropdown",
+      "field_key": "process_cost_head_link",
+      "dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ],
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": true,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "dropdown",
+      "group_name": null,
+      "filter_dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ]
+    },
+    {
+      "has_validations": false,
+      "id": 7,
+      "field_label": "Cost Head Name ",
+      "field_type_id": "dropdown",
+      "field_key": "cost_head_name",
+      "dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ],
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": true,
+      "conditional_on": "[\"process_cost_head_link\"]",
+      "conditional_value": "[\"process_cost_head_link_36\", \"process_cost_head_link_41\", \"process_cost_head_link_8\", \"process_cost_head_link_15\", \"process_cost_head_link_17\", \"process_cost_head_link_18\", \"process_cost_head_link_20\", \"process_cost_head_link_19\", \"process_cost_head_link_21\", \"process_cost_head_link_22\", \"process_cost_head_link_23\", \"process_cost_head_link_24\", \"process_cost_head_link_25\", \"process_cost_head_link_26\", \"process_cost_head_link_33\", \"process_cost_head_link_34\", \"process_cost_head_link_29\", \"process_cost_head_link_28\", \"process_cost_head_link_35\", \"process_cost_head_link_1\", \"process_cost_head_link_31\", \"process_cost_head_link_5\", \"process_cost_head_link_30\", \"process_cost_head_link_40\", \"process_cost_head_link_16\", \"process_cost_head_link_39\", \"process_cost_head_link_37\", \"process_cost_head_link_7\", \"process_cost_head_link_38\", \"process_cost_head_link_6\", \"process_cost_head_link_4\", \"process_cost_head_link_9\", \"process_cost_head_link_10\", \"process_cost_head_link_11\", \"process_cost_head_link_12\", \"process_cost_head_link_13\", \"process_cost_head_link_14\", \"process_cost_head_link_2\", \"process_cost_head_link_44\", \"process_cost_head_link_27\", \"process_cost_head_link_3\", \"process_cost_head_link_32\", \"process_cost_head_link_45\", \"process_cost_head_link_42\", \"process_cost_head_link_46\", \"process_cost_head_link_43\"]",
+      "dependent_input": "[\"process_cost_head_link\"]",
+      "is_visible_in_mat_table": false,
+      "default_value": "",
+      "level": 0,
+      "field_type_val": "dropdown",
+      "group_name": null,
+      "filter_dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ]
+    },
+    {
+      "has_validations": false,
+      "id": 1,
+      "field_label": "Is Used For Cost Calculation?",
+      "field_type_id": "toggle",
+      "field_key": "is_used_for_cost_calculation",
+      "dropdown_raw_query": "",
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[\"step_name\", \"is_used_for_cost_calculation\"]",
+      "is_visible_in_mat_table": true,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "toggle",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 6,
+      "field_label": "Accounting Applicable?",
+      "field_type_id": "toggle",
+      "field_key": "accounting_applicable",
+      "dropdown_raw_query": "",
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "toggle",
+      "group_name": null
+    },
+    {
+      "has_validations": false,
+      "id": 2,
+      "field_label": "Accounting Definition",
+      "field_type_id": "dropdown",
+      "field_key": "accounting_definition",
+      "dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 8,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ],
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": false,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": true,
+      "conditional_on": "[\"accounting_applicable\"]",
+      "conditional_value": "[\"accounting_applicable_true\"]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": true,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "dropdown",
+      "group_name": null,
+      "filter_dropdown_raw_query": [
+        {
+          "id": 1,
+          "key": "Agdi"
+        },
+        {
+          "id": 2,
+          "key": "Federation"
+        },
+        {
+          "id": 3,
+          "key": "FPC"
+        },
+        {
+          "id": 4,
+          "key": "Sample"
+        },
+        {
+          "id": 5,
+          "key": "Replacement"
+        },
+        {
+          "id": 6,
+          "key": "Regular"
+        },
+        {
+          "id": 7,
+          "key": "PLC"
+        },
+        {
+          "id": 9,
+          "key": "LLP"
+        },
+        {
+          "id": 10,
+          "key": "character"
+        }
+      ]
+    },
+    {
+      "has_validations": true,
+      "id": 45,
+      "field_label": "email",
+      "field_type_id": "text",
+      "field_key": "email",
+      "dropdown_raw_query": "",
+      "field_max_length": 255,
+      "field_placeholder": "",
+      "is_required": true,
+      "is_disabled": false,
+      "is_readonly": false,
+      "is_onchange_event": false,
+      "is_unique": false,
+      "is_conditional": false,
+      "conditional_on": "[]",
+      "conditional_value": "[]",
+      "dependent_input": "[]",
+      "is_visible_in_mat_table": false,
+      "default_value": null,
+      "level": 0,
+      "field_type_val": "text",
+      "group_name": "Hello",
+      "validaitons": [
+        {
+          "validation_type__master_key": "minLength",
+          "error": "Invalid Email",
+          "pattern": "10"
+        },
+        {
+          "validation_type__master_key": "pattern",
+          "error": "Invalid Email",
+          "pattern": "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
+        }
+      ]
+    }
+  ],
+  "multiple_details": [
+    {
+      "id": 59,
+      "name": "Aren1 Det1",
+      "data": [
+        {
+          "has_validations": false,
+          "id": 3,
+          "field_label": "Label",
+          "field_type_id": "text",
+          "field_key": "label",
+          "dropdown_raw_query": "",
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"process_cost_head_link\"]",
+          "conditional_value": "[\"process_cost_head_link_36\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "text",
+          "group_name": null
+        },
+        {
+          "has_validations": false,
+          "id": 8,
+          "field_label": "Budget Year",
+          "field_type_id": "dropdown",
+          "field_key": "budget_year",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": true,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[]",
+          "conditional_value": "[]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 9,
+          "field_label": "Source",
+          "field_type_id": "dropdown",
+          "field_key": "source",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[]",
+          "conditional_value": "[]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 10,
+          "field_label": "Step",
+          "field_type_id": "dropdown",
+          "field_key": "step",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"source\"]",
+          "conditional_value": "[\"source_490\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 11,
+          "field_label": "Step Result",
+          "field_type_id": "dropdown",
+          "field_key": "step_result",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"source\"]",
+          "conditional_value": "[491]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 12,
+          "field_label": "Global Value",
+          "field_type_id": "dropdown",
+          "field_key": "global_value",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"source\"]",
+          "conditional_value": "[\"source_492\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": true,
+          "id": 17,
+          "field_label": "value",
+          "field_type_id": "integer",
+          "field_key": "value",
+          "dropdown_raw_query": "",
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "",
+          "conditional_value": "",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "integer",
+          "group_name": null,
+          "validaitons": [
+            {
+              "validation_type__master_key": "min",
+              "error": "the value should be between 1 and 100",
+              "pattern": "1"
+            },
+            {
+              "validation_type__master_key": "max",
+              "error": "the value should be between 1 and 100",
+              "pattern": "100"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 13,
+          "field_label": "Arithematic Operator",
+          "field_type_id": "dropdown",
+          "field_key": "arithematic_operator",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"is_used_for_cost_calculation\"]",
+          "conditional_value": "[\"is_used_for_cost_calculation_true\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 14,
+          "field_label": "Process",
+          "field_type_id": "dropdown",
+          "field_key": "process",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": true,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[]",
+          "conditional_value": "[]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 15,
+          "field_label": "dependent",
+          "field_type_id": "dropdown",
+          "field_key": "dependent",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"process\"]",
+          "conditional_value": "[\"process_36\", \"process_41\", \"process_8\", \"process_15\", \"process_17\", \"process_18\", \"process_20\", \"process_19\", \"process_21\", \"process_22\", \"process_23\", \"process_24\", \"process_25\", \"process_26\", \"process_33\", \"process_34\", \"process_29\", \"process_28\", \"process_35\", \"process_1\", \"process_31\", \"process_5\", \"process_30\", \"process_40\", \"process_16\", \"process_39\", \"process_37\", \"process_7\", \"process_38\", \"process_6\", \"process_4\", \"process_9\", \"process_10\", \"process_11\", \"process_12\", \"process_13\", \"process_14\", \"process_2\", \"process_44\", \"process_27\", \"process_3\", \"process_32\", \"process_45\", \"process_42\", \"process_46\", \"process_43\"]",
+          "dependent_input": "[\"process\"]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        }
+      ],
+      "subdata": [
+        {
+          "id": 62,
+          "name": "Aren1 SubDet1",
+          "data": [
+            {
+              "has_validations": false,
+              "id": 33,
+              "field_label": "Source",
+              "field_type_id": 3,
+              "field_key": "source",
+              "dropdown_raw_query": "select id as id,master_key as key from tbl_master tm limit 10 ",
+              "field_max_length": 255,
+              "field_placeholder": "",
+              "is_required": false,
+              "is_disabled": false,
+              "is_readonly": false,
+              "is_onchange_event": false,
+              "is_unique": false,
+              "is_conditional": false,
+              "conditional_on": "[]",
+              "conditional_value": "[]",
+              "dependent_input": "[]",
+              "is_visible_in_mat_table": false,
+              "default_value": null,
+              "level": 2,
+              "field_type_val": "dropdown",
+              "group_name": null
+            },
+            {
+              "has_validations": false,
+              "id": 30,
+              "field_label": "Step",
+              "field_type_id": 3,
+              "field_key": "step",
+              "dropdown_raw_query": "select id as id,master_key as key from tbl_master tm limit 10 ",
+              "field_max_length": 255,
+              "field_placeholder": "",
+              "is_required": false,
+              "is_disabled": false,
+              "is_readonly": false,
+              "is_onchange_event": false,
+              "is_unique": false,
+              "is_conditional": true,
+              "conditional_on": "[\"source\"]",
+              "conditional_value": "[\"source_490\"]",
+              "dependent_input": "[]",
+              "is_visible_in_mat_table": false,
+              "default_value": null,
+              "level": 2,
+              "field_type_val": "dropdown",
+              "group_name": null
+            },
+            {
+              "has_validations": false,
+              "id": 31,
+              "field_label": "value",
+              "field_type_id": 2,
+              "field_key": "value",
+              "dropdown_raw_query": "",
+              "field_max_length": 255,
+              "field_placeholder": "",
+              "is_required": false,
+              "is_disabled": false,
+              "is_readonly": false,
+              "is_onchange_event": false,
+              "is_unique": false,
+              "is_conditional": true,
+              "conditional_on": "[\"source\"]",
+              "conditional_value": "[\"source_493\"]",
+              "dependent_input": "[]",
+              "is_visible_in_mat_table": false,
+              "default_value": null,
+              "level": 2,
+              "field_type_val": "text",
+              "group_name": null
+            },
+            {
+              "has_validations": false,
+              "id": 32,
+              "field_label": "dependent",
+              "field_type_id": 3,
+              "field_key": "dependent",
+              "dropdown_raw_query": "select id as id,master_key as key from tbl_master tm limit 10 ",
+              "field_max_length": 255,
+              "field_placeholder": "",
+              "is_required": false,
+              "is_disabled": false,
+              "is_readonly": false,
+              "is_onchange_event": false,
+              "is_unique": false,
+              "is_conditional": true,
+              "conditional_on": "[\"process\"]",
+              "conditional_value": "[\"process_36\", \"process_41\", \"process_8\", \"process_15\", \"process_17\", \"process_18\", \"process_20\", \"process_19\", \"process_21\", \"process_22\", \"process_23\", \"process_24\", \"process_25\", \"process_26\", \"process_33\", \"process_34\", \"process_29\", \"process_28\", \"process_35\", \"process_1\", \"process_31\", \"process_5\", \"process_30\", \"process_40\", \"process_16\", \"process_39\", \"process_37\", \"process_7\", \"process_38\", \"process_6\", \"process_4\", \"process_9\", \"process_10\", \"process_11\", \"process_12\", \"process_13\", \"process_14\", \"process_2\", \"process_44\", \"process_27\", \"process_3\", \"process_32\", \"process_45\", \"process_42\", \"process_46\", \"process_43\"]",
+              "dependent_input": "[\"process\"]",
+              "is_visible_in_mat_table": false,
+              "default_value": null,
+              "level": 2,
+              "field_type_val": "dropdown",
+              "group_name": null
+            }
+          ],
+          "subdata": []
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Aren1 Det2",
+      "data": [
+        {
+          "has_validations": true,
+          "id": 23,
+          "field_label": "Label",
+          "field_type_id": "text",
+          "field_key": "label",
+          "dropdown_raw_query": "",
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[\"process_cost_head_link\"]",
+          "conditional_value": "[\"process_cost_head_link_36\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "text",
+          "group_name": null,
+          "validaitons": [
+            {
+              "validation_type__master_key": "minLength",
+              "error": "min_len",
+              "pattern": "5"
+            },
+            {
+              "validation_type__master_key": "maxLength",
+              "error": "",
+              "pattern": "10"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 27,
+          "field_label": "Budget Year",
+          "field_type_id": "dropdown",
+          "field_key": "budget_year",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[]",
+          "conditional_value": "[]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 28,
+          "field_label": "Source",
+          "field_type_id": "dropdown",
+          "field_key": "source",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[]",
+          "conditional_value": "[]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 29,
+          "field_label": "Step",
+          "field_type_id": "dropdown",
+          "field_key": "step",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"source\"]",
+          "conditional_value": "[\"source_490\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 20,
+          "field_label": "Step Result",
+          "field_type_id": "dropdown",
+          "field_key": "step_result",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"source\"]",
+          "conditional_value": "[491]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 21,
+          "field_label": "Global Value",
+          "field_type_id": "dropdown",
+          "field_key": "global_value",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"source\"]",
+          "conditional_value": "[\"source_492\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 25,
+          "field_label": "value",
+          "field_type_id": "text",
+          "field_key": "value",
+          "dropdown_raw_query": "",
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[\"source\"]",
+          "conditional_value": "[\"source_493\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "text",
+          "group_name": null
+        },
+        {
+          "has_validations": false,
+          "id": 22,
+          "field_label": "Arithematic Operator",
+          "field_type_id": "dropdown",
+          "field_key": "arithematic_operator",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"is_used_for_cost_calculation\"]",
+          "conditional_value": "[\"is_used_for_cost_calculation_true\"]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 24,
+          "field_label": "Process",
+          "field_type_id": "dropdown",
+          "field_key": "process",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": true,
+          "is_unique": false,
+          "is_conditional": false,
+          "conditional_on": "[]",
+          "conditional_value": "[]",
+          "dependent_input": "[]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        },
+        {
+          "has_validations": false,
+          "id": 26,
+          "field_label": "dependent",
+          "field_type_id": "dropdown",
+          "field_key": "dependent",
+          "dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ],
+          "field_max_length": 255,
+          "field_placeholder": "",
+          "is_required": false,
+          "is_disabled": false,
+          "is_readonly": false,
+          "is_onchange_event": false,
+          "is_unique": false,
+          "is_conditional": true,
+          "conditional_on": "[\"process\"]",
+          "conditional_value": "[\"process_36\", \"process_41\", \"process_8\", \"process_15\", \"process_17\", \"process_18\", \"process_20\", \"process_19\", \"process_21\", \"process_22\", \"process_23\", \"process_24\", \"process_25\", \"process_26\", \"process_33\", \"process_34\", \"process_29\", \"process_28\", \"process_35\", \"process_1\", \"process_31\", \"process_5\", \"process_30\", \"process_40\", \"process_16\", \"process_39\", \"process_37\", \"process_7\", \"process_38\", \"process_6\", \"process_4\", \"process_9\", \"process_10\", \"process_11\", \"process_12\", \"process_13\", \"process_14\", \"process_2\", \"process_44\", \"process_27\", \"process_3\", \"process_32\", \"process_45\", \"process_42\", \"process_46\", \"process_43\"]",
+          "dependent_input": "[\"process\"]",
+          "is_visible_in_mat_table": false,
+          "default_value": null,
+          "level": 1,
+          "field_type_val": "dropdown",
+          "group_name": null,
+          "filter_dropdown_raw_query": [
+            {
+              "id": 1,
+              "key": "Agdi"
+            },
+            {
+              "id": 2,
+              "key": "Federation"
+            },
+            {
+              "id": 3,
+              "key": "FPC"
+            },
+            {
+              "id": 4,
+              "key": "Sample"
+            },
+            {
+              "id": 5,
+              "key": "Replacement"
+            },
+            {
+              "id": 6,
+              "key": "Regular"
+            },
+            {
+              "id": 7,
+              "key": "PLC"
+            },
+            {
+              "id": 8,
+              "key": "PLC"
+            },
+            {
+              "id": 9,
+              "key": "LLP"
+            },
+            {
+              "id": 10,
+              "key": "character"
+            }
+          ]
+        }
+      ],
+      "subdata": []
+    }
+  ]
+}
