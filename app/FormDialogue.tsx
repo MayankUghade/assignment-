@@ -10,7 +10,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { CalendarIcon, ChevronDown, ChevronUp, Cross, X } from "lucide-react";
+import { CalendarIcon, ChevronDown, ChevronUp, X } from "lucide-react";
 import { Calendar } from "@/components/ui/calendar";
 import {
   Popover,
@@ -215,6 +215,7 @@ function FormDialogue({
                 (field: any) =>
                   field.field_label === "email" && (
                     <Input
+                      key={field.id}
                       type="text"
                       name={field.field_key}
                       placeholder={field.field_label}

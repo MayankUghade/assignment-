@@ -99,7 +99,11 @@ function DefineDetailsFunction({ formData }: { formData: any }) {
   );
 }
 
-function renderInput(item: any, rowId: number, handleInputChange: Function) {
+function renderInput(
+  item: any,
+  rowId: number,
+  handleInputChange: (rowId: number, fieldKey: string, value: any) => void
+) {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
